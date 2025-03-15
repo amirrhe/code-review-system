@@ -20,7 +20,7 @@ The project uses FastAPI for building the APIs, Poetry for dependency management
 
 ## Project Structure
 
-```plaintext
+```
 .
 ├── code_analysis
 │   ├── Dockerfile
