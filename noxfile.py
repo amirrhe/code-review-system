@@ -5,6 +5,7 @@ PYTHON_VERSIONS = ["3.10"]
 CODE_ANALYSIS_PATH = "code_analysis"
 LLM_SERVICE_PATH = "llm_service"
 
+
 @nox.session(python=PYTHON_VERSIONS)
 def lint(session):
     """
