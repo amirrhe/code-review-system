@@ -43,7 +43,6 @@ class LocalLLMProvider(BaseLLMProvider):
     def analyze(self, function_code: str) -> dict:
         try:
             result = generate("qwen2.5-coder:1.5b", function_code)
-            print(result)
             return {"suggestions": [result["response"]]}
         except Exception as e:
             raise HTTPException(
